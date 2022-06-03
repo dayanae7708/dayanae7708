@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<title>Creation of Array and Object</title>
+<style>
+div p{
+	background:rgb(166, 159, 159);
+	max-width: 80%;
+	min-widTh: 50%;
+	padding: 50px;
+	border-style: solid;
+	border-color:rgb(17, 17, 17)(83, 182, 182) ;
+	border-width: 2px;
+}
+</style>	
+</head>
+<body>
+
+<h2 style="margin-left:100px;">Creation of Arrays and Objects</h2>
+<p style="font-size: 20px; font-weight: bold; margin-left:250px ;">OUR FAMILY</p>
+<div>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<P id="demo4"></P>
+<p id="demo5"></p> 
+</div>
+<script>
+var Goldfamily= [
+		{
+			OURFAMILY:"Gold family",
+			NAME:"Elumalai",
+			year:1968,
+			age:54,
+		},
+		{
+			OURFAMILY:"Gold family",
+			NAME:"Banumathi",
+			year:1976,
+			age:46,	
+		},
+        {
+			OURFAMILY:"Gold family",
+			NAME:"Dayana",
+			year:1999,
+			age:23,	
+		},
+        {
+			OURFAMILY:"Gold family",
+			NAME:"Sathya narayanan",
+			year:2002,
+			age:20,	
+		},
+        {
+			OURFAMILY:"Gold family",
+			NAME:"Sankara narayanan",
+			year:2002,
+			age:20,	
+		}
+		];
+
+document.getElementById("demo1").innerHTML= "<B>ourfamily:</B>" + " "+Goldfamily[1].ourfamily  +"<br>"+ "<B>name:</B>" + " " + Goldfamily[1].name +"<br>"+ "<B>Year:</B>" + " " + Goldfamily[1].year +"<br>"+ "<B>Age:</B>" + " " + Goldfamily[1].age;
+
+document.getElementById("demo2").innerHTML= "<B>ourfamily:</B>" + " "+Goldfamily[2].ourfamily  +"<br>"+ "<B> name:</B>" + " " + Goldfamily[2].name +"<br>"+ "<B>Year:</B>" + " " + Goldfamily[2].year +"<br>"+ "<B>Age:</B>" + " " + Goldfamily[2].age;
+
+document.getElementById("demo3").innerHTML= "<B>ourfamily:</B>" + " "+Goldfamily[3].ourfamily +"<br>"+ "<B> name:</B>" + " " + Goldfamily[3].name +"<br>"+ "<B>Year:</B>" + " " + Goldfamily[3].year +"<br>"+ "<B>Age:</B>" + " " + Goldfamily[3].age;
+
+document.getElementById("demo4").innerHTML= "<B>ourfamily:</B>" + " "+Goldfamily[4].ourfamily  +"<br>"+ "<B>name:</B>" + " " + Goldfamily[4].name +"<br>"+ "<B>Year:</B>" + " " + Goldfamily[4].year +"<br>"+ "<B>Age:</B>" + " " + Goldfamily[4].age;
+
+document.getElementById("demo5").innerHTML= "<B>ourfamily:</B>" + " "+Goldfamily[5].ourfamily  +"<br>"+ "<B> name:</B>" + " " + Goldfamily[5].name +"<br>"+ "<B>Year:</B>" + " " + Goldfamily[5].year +"<br>"+ "<B>Age:</B>" + " " + Goldfamily[5].age;
+</script>
+</body>

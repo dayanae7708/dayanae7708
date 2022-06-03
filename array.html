@@ -1,0 +1,58 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>Create Variables </title>
+<script>"./basic.js"</script>
+</head>    
+<body>
+ <h2>Creating variables with all data Types and check its scope </h2>
+ <p>Output is in the form of console</p>
+ <script>
+ //Number
+ function multiply()
+ {
+     let a = 4;
+     let b = 6;
+     let c = a * b;
+     return c;
+ }
+ let value = multiply();
+ console.log(value);
+ let a = 10
+ let b = 10
+ const sum = a * b;
+ console.log(sum);
+
+ 
+ let x, y;
+ x = '5';
+ y = '2';
+ const z = x % y;
+
+ let val = '';
+ console.log(Boolean(val));
+//array
+var Nutritions= [ "fruit", "vegatables", "greens" ];
+ console.log(Nutritions);
+ const schoolstudentdetails=[
+     {
+         firstName:'vinoth',
+         lastName:'manokar',
+         rollno:45,
+         std:7
+        }
+        ];
+ console.log(schoolstudentdetails);
+
+ const phone= [];
+phone[0]= "vivo";
+phone[1]= "oppo";
+phone[2]= "oneplus";
+console.log(phone); 
+const person = {firstName:"bala", lastName:"Dinakaran", age:30};
+console.log(person);
+ </script>
+ </body>
+ </html>
+ 
+ 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creating custom constructor</title>
+</head>    
+<body>
+ <h2>Creating Object with custom constructor</h2>
+
+ <script>
+     function phonedetails(colour,model,price,ram)
+     {
+        
+         this.colour = colour;
+         this.model= model;
+         this.price = price;
+         this.ram=ram;
+     }
+let vivo = new phonedetails('blue', 'spro', '26000',4)
+let oppo = new phonedetails('white', 'xpro', '25000',4)
+let lenovo = new phonedetails('venomblack', 'kseries', '15000',3)
+let oneplus = new phonedetails('green', 'zpro', '40000',8)
+console.log(vivo,oppo, lenovo,oneplus);
+</script>
+</body>
+</html> 
