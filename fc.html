@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creation of Array and Object</title>
+<style>
+div p{
+	background:lightgrey;
+	max-width: 50%;
+	min-width: 20%;
+	padding: 20px;
+	border-style: solid;
+	border-color:black ;
+	border-width: 2px;
+}
+</style>	
+</head>
+<body>
+<h2 style="margin-left:150px;">Creation of Arrays and Objects</h2>
+<p style="font-size: 20px; font-weight: bold; margin-left:250px ;">pet name</p>
+<div><p id="demo1"></p>
+ </div>
+<script>
+var pets = [
+		{
+	name:"snowbell",
+		age:2,
+		}];
+		document.getElementById("demo1").innerHTML= "<B>name:</B>" + " " +pets[0].name +"<br>"+"<B>age:</B>" + " " + pets[0].age
+</script>
+</body>
