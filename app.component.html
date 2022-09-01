@@ -1,0 +1,62 @@
+<h1>Angular</h1>
+<h2>{{title}}</h2>
+<div class="bg1">
+  <img [src]="relativepathSRC">
+  <mat-form-field class="find Input"appearance="outline">
+    <input matInput placeholder="Find Good Furniture for me">
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  <mat-form-field class="help"appearance="fill">
+    <mat-label>24/7 help</mat-label>
+    
+    
+  
+    <mat-select>
+      <mat-option>get help from our experts 24/7</mat-option>
+      <mat-option>888 888 6666</mat-option>
+      <mat-option>Contact us</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field class="loginField" appearance="fill">
+     <mat-label>Login & Signup</mat-label>
+     <mat-select>
+     <mat-option>
+     <a routerLink="/login">Login</a>
+      </mat-option> 
+      <mat-option>
+      <a routerLink="/signup">Signup</a>
+      </mat-option>
+    </mat-select>
+     </mat-form-field>
+     <button>
+      <mat-icon preSuffix> add_shopping_cart</mat-icon>
+      cart
+     </button>
+     <br> 
+     <mat-form-field apperance="outline">
+        <mat-label>Shop by Gold Jewellery</mat-label>
+      <mat-select>
+        <mat-option>Ear Rings</mat-option>
+        <mat-option>Necklace</mat-option>
+        <mat-option>Rings</mat-option>
+        <mat-option>Bangles</mat-option>     
+      </mat-select>
+     </mat-form-field>
+     <mat-form-field class="formDiamond" apperance="fill">
+     <mat-label>Shop by Diamond Jewellery</mat-label>
+     <mat-select>
+      <mat-option>Ear Rings</mat-option>
+      <mat-option>Necklace</mat-option>
+      <mat-option>Rings</mat-option>
+      <mat-option>Bangles</mat-option>
+     </mat-select>
+
+    </mat-form-field>
+    <a id="shipping">FREE 1-2 DAY SHIPPING OVER $50</a>
+    
+  </div>
+
+  <app-navigation></app-navigation>
+  
+  
+  <router-outlet></router-outlet>

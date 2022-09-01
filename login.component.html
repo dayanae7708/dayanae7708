@@ -1,0 +1,34 @@
+
+<div class="login">
+     <form [formGroup]="formGroup">
+          <input type="text" class="e_mail"  placeholder= "Enter your email" class="form-control"
+          formControlName="e_mail" required>
+    
+    <div *ngIf="e_mail.invalid && (e_mail.dirty || e_mail.touched)"
+        class="alert alert-danger">
+    
+      <div *ngIf="e_mail.errors?.['required']">
+        Email is required.
+      </div>
+      <div *ngIf="e_mail.errors?.['minlength']">
+        Enter Valid Mail id.
+      </div>
+      </div><br>
+     <input type="text" id="password" placeholder="Enter your password"class="form-control"
+      formControlName="password" required>
+
+<div *ngIf="password.invalid && (password.dirty || password.touched)"
+    class="alert alert-danger">
+
+  <div *ngIf="password.errors?.['required']">
+    Password is required.
+  </div>
+  <div *ngIf="password.errors?.['minlength']">
+    Name must be at least 4 characters long.
+  </div>
+  </div>
+<br>
+     <button id="submit" (click)="submitForm()" [disabled]="formGroup.invalid">Login</button><br>
+     <p id="para">Forget Password</p>
+     </form>
+</div> 

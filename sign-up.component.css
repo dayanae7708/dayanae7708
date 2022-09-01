@@ -1,0 +1,84 @@
+.signup{
+    float:right;
+    position:absolute;
+    top:-15px;
+    margin-top: 10px;
+    margin-left:900px;
+    background-color: rgb(151, 141, 236);
+    padding: 15px;
+    z-index:10;
+    padding: 20px 40px;
+    border-radius: 20px;
+
+}
+.email{
+    margin:10px 0 5px 5px;
+    padding: 10px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+
+}
+.password{
+    margin:10px ;
+    padding: 10px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    width:300px;
+}
+.conPassword{
+    margin:10px;
+    padding:10px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+}
+.mobilenum{
+    margin:20px 20px 5px 5px;
+    padding: 10px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    width:300px;
+}
+#para{
+    margin:10px 1px  80px;
+    display:block;
+    font-size:x-small;
+}
+#login{
+    display:block;
+    font-size:x-small;
+    margin:1px 5px 120px;
+
+}
+#submit{
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+    margin-top:20px;
+    margin-left:5px;
+    padding:10px;
+    color: darkslateblue;
+    background-color: green;
+}
+#submit:hover{
+    color:fuchsia;
+
+}
+#submit:active{
+    color: lightseagreen;
+}
+.toast-Register {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  #showSuccessToaster:active{
+    color: chartreuse;
+    font-style: italic;
+  }

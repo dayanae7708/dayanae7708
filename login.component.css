@@ -1,0 +1,58 @@
+.login{
+    float:right;
+    position:absolute;
+    top:-15px;
+    margin-top: 10px;
+    margin-left: 900px;
+    background-color: rgba(214, 8, 135, 0.574);
+    padding: 15px;
+    z-index:10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+.email{
+    width:300px;
+    margin:10px 0 5px 5px;
+    padding: 10px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    
+
+}
+.inputEmail{
+    margin:20px 0px 5px 5px;
+    padding:50px;
+    outline:none;
+    border:none;
+    border-radius:5px; 
+}
+.password{
+    margin:20px 5px 5px;
+    padding: 50px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+}
+#submit{
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    width:190px;
+    margin:20px 0 5px 5px;
+    padding:10px;
+    color:goldenrod;
+    background-color:blueviolet;
+}
+#submit:hover{
+    color:orange;
+
+}
+#submit:active{
+    color:aqua;
+}
+#para{
+    margin-top:10px;
+    margin-left: 120px;
+    font-size:smaller;
+}
